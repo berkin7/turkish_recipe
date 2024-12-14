@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Cooked Turkish Recipes</title>
+    <style>
+        body {
+            background-color: #fff8f0;
+            color: #000000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f50707;
+            border-bottom: 2px solid #f50707;
+        }
+        header h1 {
+            color: #444;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .recipe-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .recipe-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .recipe-card h2 {
+            margin: 10px 0;
+            color: #555;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ffa500;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #cc8400;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Home-Cooked Turkish Recipes</h1>
+    </header>
+
+    <div class="container">
+        <div class="recipe-card">
+            <img src="https://www.eatingwell.com/thmb/_tXGqm7YmBhImKkVD7IH5IGlARA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Menemen-Turkish-Eggs-v2-1x1-1-a090ffbca76943d49876b093e28432b5.jpg" alt="Menemen">
+            <h2>Menemen (Turkish Scrambled Eggs with Tomatoes)</h2>
+            <a href="#menemen" class="button">View Recipe</a>
+        </div>
+
+        <div class="recipe-card">
+            <img src="https://poshplate.us/wp-content/uploads/2020/09/How-To-Make-Lahmacun.jpg" alt="Lahmacun">
+            <h2>Lahmacun (Turkish Flatbread with Spiced Meat Topping)</h2>
+            <a href="#lahmacun" class="button">View Recipe</a>
+        </div>
+    </div>
+
+    <div class="container" id="menemen">
+        <h2>Menemen Recipe</h2>
+        <h3>Ingredients:</h3>
+        <ul>
+            <li>4 eggs</li>
+            <li>2 medium tomatoes (diced)</li>
+            <li>1 green pepper (chopped)</li>
+            <li>2 tablespoons olive oil</li>
+            <li>Salt and black pepper to taste</li>
+            <li>Optional: Red pepper flakes, feta cheese</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Heat olive oil in a skillet over medium heat.</li>
+            <li>Add the chopped green pepper and sauté for 2-3 minutes.</li>
+            <li>Add the diced tomatoes and cook until softened, about 5-7 minutes.</li>
+            <li>Crack the eggs into the pan and stir gently to scramble.</li>
+            <li>Season with salt, black pepper, and optional red pepper flakes.</li>
+            <li>Cook until the eggs are just set, then remove from heat.</li>
+            <li>Serve warm with crusty bread. Optionally, garnish with feta cheese.</li>
+        </ol>
+    </div>
+
+    <div class="container" id="lahmacun">
+        <h2>Lahmacun Recipe</h2>
+        <h3>Ingredients:</h3>
+        <ul>
+            <li>2 cups all-purpose flour</li>
+            <li>1/2 teaspoon salt</li>
+            <li>3/4 cup water</li>
+            <li>1/2 pound ground lamb or beef</li>
+            <li>1 small onion (finely chopped)</li>
+            <li>1 medium tomato (finely chopped)</li>
+            <li>1 tablespoon tomato paste</li>
+            <li>2 tablespoons parsley (chopped)</li>
+            <li>1 teaspoon paprika</li>
+            <li>1/2 teaspoon cumin</li>
+            <li>Salt and pepper to taste</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol>
+            <li>In a bowl, mix flour, salt, and water to form a soft dough. Knead until smooth, then let rest for 30 minutes.</li>
+            <li>Preheat the oven to 450°F (230°C).</li>
+            <li>In another bowl, combine ground meat, onion, tomato, tomato paste, parsley, paprika, cumin, salt, and pepper. Mix well.</li>
+            <li>Divide the dough into small balls and roll out each ball into a thin round.</li>
+            <li>Spread the meat mixture thinly over each dough round.</li>
+            <li>Bake in the preheated oven for 8-10 minutes, or until the edges are crisp and the meat is cooked.</li>
+            <li>Serve hot with a squeeze of lemon and fresh parsley.</li>
+        </ol>
+    </div>
+</body>
+</html>
